@@ -324,8 +324,8 @@ body{
         display: block;
         height: 85px;
         width: 100%;
-        position: absolute;
-        top: 460px;
+        position: relative;
+        top: 60px;
         padding-top: 0px;
     } 
     #fpage{
