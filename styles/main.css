@@ -1,9 +1,10 @@
 html{background-color: #ffffff; font-size: 10px; width: 1350px; 
-    height: 600px; font-family: "Arial", sans-serif; overflow-x: hidden;}
+    height: 680px; font-family: "Arial", sans-serif; overflow-x: visible;}
 h1{font-size: 40px; text-align: center;}
 p{font-size: 12px; line-height: 2px; letter-spacing: 1px;}
 
 body{
+    position: relative;
     height: 100%;
     width:100%;
     background-color: #ffffff;
@@ -16,7 +17,7 @@ body{
     position: absolute;
     margin: 0% auto;
     width: 100%;
-    height: 600px;
+    height: 100%;
     display: block;
     min-width: 40%;
 }
@@ -113,8 +114,8 @@ body{
         #content{
             display: block;
             width: 100%;
-            height: 495px;
-            position: absolute;
+            height: 515px;
+            position: relative;
             top: 45px;
             padding-bottom: 5px;
             align-items: center;
@@ -130,11 +131,12 @@ body{
 #cntr{
     display: block;
     margin-top: 0%;
-    width: 48.98%; 
+    width: 38.92%; 
     height: 255px; 
     min-height: 255px;
     position: relative;
-    left: 26.110%;
+    left: 32.110%;
+    align-items: center;
    
 }
 #topc-pg{
@@ -317,14 +319,14 @@ body{
         height: 100px;
         width: 100%;
         position: relative;
-        top: 0px;
-        padding-top: 0px;
+        top: 100px;
+        margin-top: 15px;
     } 
     #fpage{
         top: 100%;
         position: relative;
         width: 100%;
-        height:40px;
+        height: 40px;
         background-color:#f2f2f2;
         line-height: 40px;
         border-top: 1px solid #e4e4e4; 
