@@ -1,1 +1,1 @@
-# google-homepage- This project involved the contruction of the google.com home page. The CSS layout comprised the "display:block" format with mainly "position: relative" positioning. Great learning experience putting into practice the theories studied so far. 
+# google-homepage- This project involved the construction of the google.com home page. The CSS layout comprised the "display:block" format with mainly "position: relative" positioning. Great learning experience putting into practice the theories studied so far. 
