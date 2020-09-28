@@ -88,7 +88,6 @@ body{
         white-space: nowrap;
         text-align: left;
         text-decoration: none;
-       
         padding-right: 12px;
         background-color: #ffffff; 
     }
@@ -110,6 +109,12 @@ body{
     }
     #mail:hover{
         text-decoration: underline 1px black;
+    }
+    @media screen and (max-width: 60%){
+        #tpbar ul{
+            float: none;
+            align-items: center;
+        }
     }
         #content{
             display: block;
@@ -137,7 +142,12 @@ body{
     position: relative;
     left: 32.110%;
     align-items: center;
-   
+}
+@media screen and (max-width: 60%){
+    #cntr{
+        left: 0%;
+        float: left;
+    }
 }
 #topc-pg{
     height: 102px;
@@ -206,7 +216,7 @@ body{
         left: 40px;
         z-index: 700;
         position: relative;
-        border: transparent;
+        border: none;
     }
     #mic{
         display: flex;
@@ -319,7 +329,7 @@ body{
         height: 100px;
         width: 100%;
         position: relative;
-        top: 100px;
+        top: 150px;
         margin-top: 15px;
     } 
     #fpage{
@@ -428,5 +438,15 @@ body{
     }
     #setn:hover{
        text-decoration: underline 1px #5f6368; 
+    }
+    @media screen and (max-width:60%){
+       #fbarl{
+           float: none;
+           align-items: center;
+       }
+       #bar{
+           float: none;
+           align-items: center;
+       }
     }
   
