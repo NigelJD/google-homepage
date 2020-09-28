@@ -90,6 +90,7 @@ body{
         text-decoration: none;
         padding-right: 12px;
         background-color: #ffffff; 
+        cursor: pointer;
     }
     #image:hover{
         text-decoration: underline 1px black;
@@ -106,6 +107,7 @@ body{
         padding-right: 12px;
         background-color: #ffffff;
         text-decoration: none;
+        cursor: pointer;
     }
     #mail:hover{
         text-decoration: underline 1px black;
@@ -217,6 +219,7 @@ body{
         z-index: 700;
         position: relative;
         border: none;
+        background-color: transparent ;
     }
     #mic{
         display: flex;
@@ -239,6 +242,7 @@ body{
     #icon{
         display: flex;
         position: relative;
+        cursor: default;
         left: 0px; 
         top: -50px;
         border: 0;
