@@ -38,6 +38,9 @@ body{
     float: right;
     order: 1;
 }
+#tpbar ul:hover{
+    text-decoration: underline 1px #5f6368; 
+}
     #sign{
         position: relative;
         align-items: center;
@@ -219,7 +222,7 @@ body{
         z-index: 700;
         position: relative;
         border: none;
-        background-color: transparent ;
+        border-color: #ffffff ;
     }
     #mic{
         display: flex;
@@ -361,6 +364,9 @@ body{
        cursor: pointer;
       
     }
+    #fbarl ul:hover{
+        text-decoration: underline 1px #5f6368; 
+    }
     #addv{
         text-decoration: none;
         color:#5f6368;
@@ -411,6 +417,9 @@ body{
         width: 100%;
         
     } 
+    #bar:hover{
+        text-decoration: underline 1px #5f6368; 
+    }
     #privy{
         white-space: nowrap;
         text-decoration: none; 
