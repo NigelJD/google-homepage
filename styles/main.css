@@ -1,5 +1,5 @@
 html{background-color: #ffffff; font-size: 10px; width: 1350px; 
-    height: 630px; font-family: "Arial", sans-serif; overflow-x: visible;}
+    height: 680px; font-family: "Arial", sans-serif; overflow-x: visible;}
 h1{font-size: 40px; text-align: center;}
 p{font-size: 12px; line-height: 2px; letter-spacing: 1px;}
 
@@ -221,8 +221,9 @@ body{
         left: 40px;
         z-index: 700;
         position: relative;
-        border: none;
+        border: transparent;
         border-color: #ffffff ;
+        outline: none;
     }
     #mic{
         display: flex;
@@ -240,7 +241,22 @@ body{
         z-index: 700;    
         align-items: center;
         justify-content: center;
-        
+    }
+    #text{
+        visibility: hidden;
+        font-size: small;
+        background-color: #000000;
+        font: white;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+        width: 105px;
+        height: 15px;
+        opacity: 1;
+        left: 425px;
+    }
+    #mic:hover ~ #text {
+        visibility: visible;
     }
     #icon{
         display: flex;
@@ -263,7 +279,7 @@ body{
         display: block;
         height: 58px;
         position: relative;
-        top: 0px;
+        top: -35px;
         padding-top: 20px;
         justify-content: center;
         align-items: center;
@@ -292,6 +308,7 @@ body{
         overflow: hidden;
         border-color: none;
         border: 1px solid transparent;
+        outline: none;
     }
     #form-lucky[type="submit"]{
         border: 1px solid transparent;
@@ -322,6 +339,7 @@ body{
         border-radius: 4px;
         color: #5f6368;
         appearance: #f2f2f2;
+        outline: none;
     }
     #form-search[type="submit"]
     {

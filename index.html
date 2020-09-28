@@ -35,15 +35,16 @@
                 height= "72px" width="212px">
           </div>
           <div id="lowc-pg" class="cntr-pg">
-            <form action="search" id="sform" class="cntr-pg" name="sform" role="search">
+            <form action="search" id="sform" class="cntr-pg" name="sform" role="search" method="GET">
               <input id="ginput" type="search" class="cntr-pg" name="ginput">
               <i id="mic" class="fa fa-microphone"></i>
+              <div id="text">Search by voice</div>
               <i id="icon" class="fa fa-search"></i>
-            </form>  
-            <div id="butn">
-               <input id="form-search" class="cntr-pg" type="submit" value="Google Search" aria-label="Google Search" name="form-search">
+              <div id="butn">
+               <input id="form-search" role="button" class="cntr-pg" type="submit" value="Google Search" aria-label="Google Search" name="form-search">
                <input id="form-lucky" class="cntr-pg" type="submit" value="I'm Feeling Lucky" aria-label="I'm Feeling Lucky" name="form-lucky">
-            </div>
+              </div>
+            </form> 
           </div>
         </div>
       </div>
