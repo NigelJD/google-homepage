@@ -123,7 +123,7 @@ body{
         #content{
             display: block;
             width: 100%;
-            height: 405px;
+            height: 100%;
             position: relative;
             top: 45px;
             padding-bottom: 5px;
@@ -353,7 +353,7 @@ body{
         height: 85px;
         width: 100%;
         position: absolute;
-        top: 620px;
+        top: 545px;
         margin-top: 15px;
     } 
     #fpage{
@@ -424,7 +424,7 @@ body{
     #bar{
         left: 0px;
         line-height: 40px;
-        margin-right: 15px;  
+        margin-right: 0px;  
         font-size: 14px;
         text-align: left;
         cursor: pointer;
