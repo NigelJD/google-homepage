@@ -125,10 +125,7 @@ body{
             width: 100%;
             height: 100%;
             position: relative;
-            top: 45px;
-            padding-bottom: 5px;
             align-items: center;
-            
         }
         #frst-pg{
             display: block;
@@ -353,7 +350,7 @@ body{
         height: 85px;
         width: 100%;
         position: absolute;
-        top: 545px;
+        top: 540px;
         margin-top: 15px;
     } 
     #fpage{
